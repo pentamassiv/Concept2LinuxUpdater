@@ -5,7 +5,7 @@ Concept2 requires the installation of their updater utility if you want the newe
 I used this to update my machine and it worked without any problems. Use this tool at your own risk. If your device becomes a brick, please don't complain.
 
 ## Requirements
-You need to have curl and 7z installed to run the script.
+You need to have curl installed to run the script.
 
 ## Compatibility
 Judging from the firmware files, this should work for the following Concept2 computer models:
@@ -25,7 +25,8 @@ chmod +x ./updater.sh
 ```
 ./updater.sh
 ```
-- The script created a new folder in your ~/Downloads folder with the firmware. Copy the folder 'Concept2' to the USB stick you want to use to update your Concept2 device
+- The script created a new folder in your ~/Downloads folder with the firmware. Open the folder and unzip the file for the device you need (eg. `7z e "pm5_eurochinesebin_pub_secure_R032B000.7z"`).
+- Copy the folder 'Concept2' to the USB stick you want to use to update your Concept2 device
 - Unplug the USB stick
 - Plug it into your Concept2 machine and follow the instructions
 - Let me know if it worked or if you had any issues
