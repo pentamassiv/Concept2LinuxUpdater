@@ -13,9 +13,9 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Update repositories
-      run: apt-get update
+      run: sudo apt-get update
     - name: Get jq & curl
-      run: apt-get install curl jq
+      run: sudo apt-get install curl jq
     - name: Check the firmware version
       env:
         CONCEPT2_API_TOKEN: ${{ secrets.CONCEPT2_API_TOKEN }}
