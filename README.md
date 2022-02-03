@@ -2,7 +2,7 @@
 Concept2 requires the installation of their updater utility if you want the newest firmware. The program is only available for Windows or Mac. This script allows you to fetch the firmware from their website and update your machine via an USB stick. When you use the Windows Updater Utility to create an USB stick to update your Concept2 machine, all it does is it creates the folders Concept2/Firmware on it, downloads the zip-files with the new firmware and copies it to the new folder. This script does the same but you need to copy the folder with the firmware to your USB stick.
 
 ## Disclaimer
-I used this to update my machine and it worked without any problems. Use this tool at your own risk. If your device becomes a brick, please don't complain. This is an UNOFFICIAL updater
+I used this to update my machine and it worked without any problems. Use this tool at your own risk. If your device becomes a brick, please don't complain. This is an UNOFFICIAL updater.
 
 ## Requirements
 You need to have curl installed to run the script.

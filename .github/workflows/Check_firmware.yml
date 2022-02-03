@@ -1,0 +1,23 @@
+name: Check_firmware
+on:
+  schedule:
+    - cron: '0 2 * * *'
+  push:
+    branches: [ GithubActions ]
+  pull_request:
+    branches: [ GithubActions ]
+
+jobs:
+  Check_firmware:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Update repositories
+      run: apt-get update
+    - name: Get jq & curl
+      run: apt-get install curl jq  
+    - name: Check for newest firmware
+    - shell: bash
+      env:
+        CONCEPT2_API_TOKEN: ${{ secrets.CONCEPT2_API_TOKEN }}
+      run: curl -s "https://tech.concept2.com/api/firmware/latest" -H "Authorization: Basic ""$CONCEPT2_API_TOKEN" | jq -r '.data[] | [.status, .machine, .release_date, .short_description, .files[0].name] | @tsv'
