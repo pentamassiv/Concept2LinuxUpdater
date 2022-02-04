@@ -16,11 +16,28 @@ jobs:
       run: sudo apt-get update
     - name: Get jq & curl
       run: sudo apt-get install curl jq
-    - name: Check the firmware version
+    - name: Write newest firmware versions to file
       env:
         CONCEPT2_API_TOKEN: ${{ secrets.CONCEPT2_API_TOKEN }}
       run: |
         curl -s "https://tech.concept2.com/api/firmware/latest" -H "Authorization: Basic ""$CONCEPT2_API_TOKEN" | jq -r '.data[] | [.status, .machine, .release_date, .short_description, .files[0].name] | @tsv' > current_versions.txt
+    - name: Write newest firmware URLS to file
+      env:
+        CONCEPT2_API_TOKEN: ${{ secrets.CONCEPT2_API_TOKEN }}
+      run: |
+        FILES=$(curl -s "https://tech.concept2.com/api/firmware/latest" -H "$TOKEN" | $JQ -r '.data[] | select(.status == "public") | .files[0].name' | paste -s -d, -)
+        cat > new_script.sh <<EOF
+        #!/bin/bash
+
+        DESTINATION=\$HOME/Downloads/Concept2/Firmware
+
+        mkdir -p \$DESTINATION
+        cd \$DESTINATION
+
+        FILES=\$($FILES)
+
+        curl -s -O "https://firmware.concept2.com/files/{\$FILES}"
+        EOF
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v3
       with:
