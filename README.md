@@ -7,11 +7,10 @@ I used this to update my machine and it worked without any problems. Use this to
 ## Requirements
 You need to have curl installed to run the script.
 
-## Compatibility
-Judging from the firmware files, this should work for the following Concept2 computer models:
-pm3 pm3a pm3aski pm4 pm4a pm4aski pm5 pm5ski pm5v2 pm5v2bk pm5v2ski 
+## Compatibility and versions
+This repo automatically checks for new firmware versions. Have a look at the [current_versions](current_versions.txt) to check if your machine is supported. It very likely is.
 
-## Usage
+## Installation
 - Clone and open this repository
 ```
 git clone https://github.com/pentamassiv/Concept2LinuxUpdater.git
@@ -31,6 +30,13 @@ chmod +x ./updater.sh
 - Plug it into your Concept2 machine and follow the instructions
 - Let me know if it worked or if you had any issues
 
+## Check for updates
+This script does not run automatically ever so often to check for updates. You need to do the following to get the current firmware:
+```
+git pull https://github.com/pentamassiv/Concept2LinuxUpdater main
+./updater.sh
+```
+Afterwards you can unzip the file you need and copy the folder with the new firmware to your USB stick again.
 
 ## TODO
 When I updated my machine with the Windows updater, there were the firmware files and two additional files called hex.out and strings.out. I don't know what they are for or when they get created but they appear to be optional/obsolete since I successfully updated my device without them. It would be interesting to know what they are for or how to get them though. Please get in touch if you have a clue :-)
