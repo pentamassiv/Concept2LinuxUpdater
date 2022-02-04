@@ -3,9 +3,9 @@ on:
   schedule:
     - cron: '0 2 * * *'
   push:
-    branches: [ GithubActions ]
+    branches: [ main ]
   pull_request:
-    branches: [ GithubActions ]
+    branches: [ main ]
 
 jobs:
   Check_firmware:
@@ -26,7 +26,7 @@ jobs:
         CONCEPT2_API_TOKEN: ${{ secrets.CONCEPT2_API_TOKEN }}
       run: |
         FILES=$(curl -s "https://tech.concept2.com/api/firmware/latest" -H "Authorization: Basic ""$CONCEPT2_API_TOKEN" | jq -r '.data[] | select(.status == "public") | .files[0].name' | paste -s -d, -)
-        cat > new_script.sh <<EOF
+        cat > updater.sh <<EOF
         #!/bin/bash
 
         DESTINATION=\$HOME/Downloads/Concept2/Firmware
