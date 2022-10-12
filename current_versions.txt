@@ -12,6 +12,6 @@ public	skierg	2022-10-10	PM5 Version 733.000	pm5ski_eurochinesebin_pub_secure_R7
 public	rower	2022-10-10	PM5v2 Version 172.000	pm5v2_eurochinesebin_pub_secure_R172B000.7z
 public	skierg	2022-10-10	PM5v2 Version 872.000	pm5v2ski_eurochinesebin_pub_secure_R872B000.7z
 public	bike	2022-10-10	PM5v2 Version 330.000	pm5v2bk_eurochinesebin_pub_secure_R330B000.7z
-public	rower	2022-10-10	PM5v5 Version 253.000	pm5v5_eurochinesebin_pub_secure_R253B000.7z
-public	skierg	2022-10-10	PM5v5 Version 953.000	pm5v5ski_eurochinesebin_pub_secure_R953B000.7z
-public	bike	2022-10-10	PM5v5 Version 403.000	pm5v5bk_eurochinesebin_pub_secure_R403B000.7z
+public	rower	2022-10-11	PM5v5 Version 254.000	pm5v5_eurochinesebin_pub_secure_R254B000.7z
+public	skierg	2022-10-11	PM5v5 Version 954.000	pm5v5ski_eurochinesebin_pub_secure_R954B000.7z
+public	bike	2022-10-11	PM5v5 Version 403.000	pm5v5bk_eurochinesebin_pub_secure_R404B000.7z
