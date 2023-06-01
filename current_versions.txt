@@ -20,3 +20,4 @@ public	skierg	2023-05-01	PM5 Version 957.000	pm5v5ski_eurochinesebin_pub_secure_
 public	bike	2023-05-01	PM5 Version 331.000	pm5v2bk_eurochinesebin_pub_secure_R331B000.7z
 public	bike	2023-05-01	PM5 Version 364.000	pm5v3bk_allbin_pub_secure_R364B000.7z
 public	bike	2023-05-01	PM5 Version 407.000	pm5v5bk_eurochinesebin_pub_secure_R407B000.7z
+public	rower	2023-05-31	PM5v6 Version 454.000	pm5v6_allbin_pub_secure_R454B000.7z
