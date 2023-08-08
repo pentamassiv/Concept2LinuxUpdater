@@ -18,3 +18,14 @@ public	skierg	2023-05-01	PM5 Version 957.000	pm5v5ski_eurochinesebin_pub_secure_
 public	bike	2023-05-01	PM5 Version 331.000	pm5v2bk_eurochinesebin_pub_secure_R331B000.7z
 public	bike	2023-05-01	PM5 Version 364.000	pm5v3bk_allbin_pub_secure_R364B000.7z
 public	bike	2023-05-01	PM5 Version 407.000	pm5v5bk_eurochinesebin_pub_secure_R407B000.7z
+beta	rower	2023-08-01	PM5 Version 34.002	pm5_eurochinesebin_beta_secure_R034B002.7z
+beta	skierg	2023-08-01	PM5 Version 734.001	pm5ski_eurochinesebin_beta_secure_R734B002.7z
+beta	rower	2023-08-01	PM5 Version 173.003	pm5v2_eurochinesebin_beta_secure_R173B003.7z
+beta	skierg	2023-08-01	PM5 Version 873.003	pm5v2ski_eurochinesebin_beta_secure_R873B003.7z
+beta	bike	2023-08-01	PM5 Version 331.003	pm5v2bk_eurochinesebin_beta_secure_R331B003.7z
+beta	rower	2023-08-01	PM5 Version 212.008	pm5v3_allbin_beta_secure_R212B008.7z
+beta	skierg	2023-08-01	PM5 Version 912.008	pm5v3ski_allbin_beta_secure_R912B008.7z
+beta	bike	2023-08-01	PM5 Version 364.008	pm5v3bk_allbin_beta_secure_R364B008.7z
+beta	rower	2023-08-01	PM5 Version 257.005	pm5v5_eurochinesebin_beta_secure_R257B005.7z
+beta	skierg	2023-08-01	PM5 Version 957.005	pm5v5ski_eurochinesebin_beta_secure_R957B005.7z
+beta	bike	2023-08-01	PM5 Version 407.005	pm5v5bk_eurochinesebin_beta_secure_R407B005.7z
