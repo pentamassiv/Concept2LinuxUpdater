@@ -11,7 +11,7 @@ jobs:
     - name: Update repositories
       run: sudo apt-get update
     - name: Get jq & curl
-      run: sudo apt-get install curl jq
+      run: sudo apt-get --yes install curl jq
     - name: Write newest firmware versions to file
       env:
         CONCEPT2_API_TOKEN: ${{ secrets.CONCEPT2_API_TOKEN }}
