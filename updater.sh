@@ -1,10 +1,35 @@
 #!/bin/bash
+set -euo pipefail
 
-DESTINATION=$HOME/Downloads/Concept2/Firmware
+DESTINATION=${HOME}/Downloads/Concept2/Firmware
 
-mkdir -p $DESTINATION
-cd $DESTINATION
+# Create temporary folder
+temp_dir=$(mktemp -d)
 
-FILES=(pm3_euro_R108B000.7z,pm4_eurochinese_R029B000.7z,pm4a_eurochinese_R332B000.7z,pm3a_eurochinese_R332B000.7z,pm4aski_eurochinese_R732B000.7z,pm3aski_eurochinese_R732B000.7z,pm5_eurochinesebin_pub_secure_R034B000.7z,pm5v2_eurochinesebin_pub_secure_R173B000.7z,pm5v3_allbin_pub_secure_R212B000.7z,pm5v5_eurochinesebin_pub_secure_R257B000.7z,pm5ski_eurochinesebin_pub_secure_R734B000.7z,pm5v2ski_eurochinesebin_pub_secure_R873B000.7z,pm5v3ski_allbin_pub_secure_R912B000.7z,pm5v5ski_eurochinesebin_pub_secure_R957B000.7z,pm5v2bk_eurochinesebin_pub_secure_R331B000.7z,pm5v3bk_allbin_pub_secure_R364B000.7z,pm5v5bk_eurochinesebin_pub_secure_R407B000.7z)
+# Get the current versions
+curl  -s --output-dir "${temp_dir}" -O "https://raw.githubusercontent.com/pentamassiv/Concept2LinuxUpdater/main/current_versions.txt"
+FILES=$(awk -F '\t' '{print $5}' "${temp_dir}"/current_versions.txt)
 
-curl -s -O "https://firmware.concept2.com/files/{$FILES}"
+# Display current versions to the user and have them chose the firmware they need
+echo "The most recent versions are:"
+echo -e "line_no\tstatus\tmachine\trelease_date\tshort_description\tfilename"
+cat -n "${temp_dir}"/current_versions.txt
+echo "Enter the line number of the firmware you want to download: "
+read line_no
+FIRMWARE=$(echo "$FILES" | sed "${line_no}q;d")
+rm -r "${temp_dir}"
+
+# Save the firmware at the default location if it wasn't specified via a parameter
+if [ $# -eq 0 ]; then
+    echo "Downloading firmware to the default destination"
+else
+    DESTINATION=$1/Concept2/Firmware
+fi
+
+# Download the firmware file
+mkdir -p "${DESTINATION}"
+echo "Downloading https://firmware.concept2.com/files/${FIRMWARE}"
+curl --output-dir "${DESTINATION}" -O "https://firmware.concept2.com/files/${FIRMWARE}"
+echo "Done downloading firmware to ${DESTINATION}"
+
+echo "Extract the 7z file and copy the Concept2 folder to your USB stick"

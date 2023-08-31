@@ -1,5 +1,6 @@
 name: Check_firmware
 on:
+  workflow_dispatch:
   schedule:
     - cron: '30 1 * * *'
 
@@ -17,23 +18,6 @@ jobs:
         CONCEPT2_API_TOKEN: ${{ secrets.CONCEPT2_API_TOKEN }}
       run: |
         curl -s "https://tech.concept2.com/api/firmware/latest" -H "Authorization: Basic ""$CONCEPT2_API_TOKEN" | jq -r '.data[] | [.status, .machine, .release_date, .short_description, .files[0].name] | @tsv' > current_versions.txt
-    - name: Write newest firmware URLS to file
-      env:
-        CONCEPT2_API_TOKEN: ${{ secrets.CONCEPT2_API_TOKEN }}
-      run: |
-        FILES=$(curl -s "https://tech.concept2.com/api/firmware/latest" -H "Authorization: Basic ""$CONCEPT2_API_TOKEN" | jq -r '.data[] | select(.status == "public") | .files[0].name' | paste -s -d, -)
-        cat > updater.sh <<EOF
-        #!/bin/bash
-
-        DESTINATION=\$HOME/Downloads/Concept2/Firmware
-
-        mkdir -p \$DESTINATION
-        cd \$DESTINATION
-
-        FILES=($FILES)
-
-        curl -s -O "https://firmware.concept2.com/files/{\$FILES}"
-        EOF
     - name: Create Pull Request
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
