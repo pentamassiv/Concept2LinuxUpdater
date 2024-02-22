@@ -23,5 +23,5 @@ beta	skierg	2024-01-23	PM5 Version 737.001	pm5ski_eurochinesebin_beta_secure_R73
 beta	skierg	2024-01-23	PM5 Version 876.001	pm5v2ski_eurochinesebin_beta_secure_R876B001.7z
 beta	skierg	2024-01-23	PM5 Version 915.001	pm5v3ski_allbin_beta_secure_R915B001.7z
 beta	skierg	2024-01-23	PM5 Version 960.001	pm5v5ski_eurochinesebin_beta_secure_R960B001.7z
-beta	rower	2024-02-13	PM5v6 Version 455.004	pm5v6_allbin_beta_secure_R455B004.7z
 beta	skierg		PM5v6 Version 502.004	pm5v6ski_allbin_beta_secure_R502B004.7z
+beta	rower	2024-02-21	PM5v6 Version 455.005	pm5v6_allbin_beta_secure_R455B005.7z
