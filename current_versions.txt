@@ -30,4 +30,4 @@ beta	skierg		PM5v Version 915.030	pm5v3ski_allbin_beta_secure_R915B030.7z
 beta	skierg	2024-07-08	PM5 Version 960.030	pm5v5ski_eurochinesebin_beta_secure_R960B030.7z
 beta	skierg		PM5 Version 504.030	pm5v6ski_allbin_beta_secure_R504B030.7z
 beta	bike	2024-07-10	PM5 Version 367.030	pm5v3bk_allbin_beta_secure_R367B030.7z
-beta	bike	2024-07-10	PM5 Version 557.030	pm5v6bk_allbin_beta_secure_R557B030.7z
+beta	bike	2024-08-05	PM5 Version 557.031	pm5v6bk_allbin_beta_secure_R557B031.7z
