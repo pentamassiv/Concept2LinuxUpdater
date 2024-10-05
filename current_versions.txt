@@ -19,16 +19,16 @@ public	skierg	2024-03-01	PM5v6 Version 504.000	pm5v6ski_allbin_pub_secure_R504B0
 public	bike	2024-03-01	PM5v6 Bike Erg	pm5v6bk_allbin_pub_secure_R557B000.7z
 public	rower	2024-03-01	PM5v6 Version 457	pm5v6_allbin_pub_secure_R457B000.7z
 developer	bike	2024-05-29	PM5 Version 367.000	pm5v3bk_allbin_dev_secure_R367B000.7z
-beta	rower	2024-07-03	PM5 Version 37.030	pm5_eurochinesebin_beta_secure_R037B030.7z
-beta	skierg	2024-07-03	PM5 Version 737.030	pm5ski_eurochinesebin_beta_secure_R737B030.7z
-beta	rower		PM5 Version 176.030	pm5v2_eurochinesebin_beta_secure_R176B030.7z
-beta	skierg	2024-07-08	PM5 Version 876.030	pm5v2ski_eurochinesebin_beta_secure_R876B030.7z
-beta	rower	2024-07-08	PM5 Version 215.030	pm5v3_allbin_beta_secure_R215B030.7z
-beta	rower	2024-07-08	PM5 Version 260.030	pm5v5_eurochinesebin_beta_secure_R260B030.7z
 beta	rower	2024-07-08	PM5 Version 457.030	pm5v6_allbin_beta_secure_R457B030.7z
-beta	skierg		PM5v Version 915.030	pm5v3ski_allbin_beta_secure_R915B030.7z
-beta	skierg	2024-07-08	PM5 Version 960.030	pm5v5ski_eurochinesebin_beta_secure_R960B030.7z
 beta	skierg		PM5 Version 504.030	pm5v6ski_allbin_beta_secure_R504B030.7z
-beta	bike	2024-07-10	PM5 Version 367.030	pm5v3bk_allbin_beta_secure_R367B030.7z
 beta	bike	2024-08-05	PM5 Version 557.031	pm5v6bk_allbin_beta_secure_R557B031.7z
 internal	strengtherg		ErgLink Version 100.203	elv1str_allbin_beta_secure_R100B203.7z
+beta	rower	2024-10-01	PM5 Version 176.034	pm5v2_eurochinesebin_beta_secure_R176B034.7z
+beta	skierg	2024-10-01	PM5 Version 876.034	pm5v2ski_eurochinesebin_beta_secure_R876B034.7z
+beta	bike	2024-10-01	PM5 Version 334.034	pm5v2bk_eurochinesebin_beta_secure_R334B034.7z
+beta	rower	2024-10-01	PM5 Version 215.034	pm5v3_allbin_beta_secure_R215B034.7z
+beta	skierg	2024-10-01	PM5v Version 915.034	pm5v3ski_allbin_beta_secure_R915B034.7z
+beta	bike	2024-10-01	PM5 Version 367.034	pm5v3bk_allbin_beta_secure_R367B034.7z
+beta	rower	2024-10-01	PM5 Version 260.034	pm5v5_eurochinesebin_beta_secure_R260B034.7z
+beta	skierg	2024-10-01	PM5 Version 960.034	pm5v5ski_eurochinesebin_beta_secure_R960B034.7z
+beta	bike	2024-10-01	PM5 Version 410.034	pm5v5bk_eurochinesebin_beta_secure_R410B034.7z
