@@ -32,3 +32,6 @@ beta	bike	2024-10-01	PM5 Version 367.034	pm5v3bk_allbin_beta_secure_R367B034.7z
 beta	rower	2024-10-01	PM5 Version 260.034	pm5v5_eurochinesebin_beta_secure_R260B034.7z
 beta	skierg	2024-10-01	PM5 Version 960.034	pm5v5ski_eurochinesebin_beta_secure_R960B034.7z
 beta	bike	2024-10-01	PM5 Version 410.034	pm5v5bk_eurochinesebin_beta_secure_R410B034.7z
+internal	rower	2024-11-04	PM5 Version 215.035	pm5v3_allbin_beta_secure_R215B035.7z
+internal	bike	2024-11-04	PM5 Version 367.035	pm5v3bk_allbin_beta_secure_R367B035.7z
+internal	skierg	2024-11-04	PM5v Version 915.035	pm5v3ski_allbin_beta_secure_R915B035.7z
