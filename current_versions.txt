@@ -8,7 +8,6 @@ public	rower	2024-01-15	PM5 Version 37.000	pm5_eurochinesebin_pub_secure_R037B00
 public	skierg	2024-01-15	PM5 Version 737.000	pm5ski_eurochinesebin_pub_secure_R737B000.7z
 public	rower	2024-01-15	PM5 Version 176.000	pm5v2_eurochinesebin_pub_secure_R176B000.7z
 public	skierg	2024-01-15	PM5 Version 876.000	pm5v2ski_eurochinesebin_pub_secure_R876B000.7z
-public	bike	2024-01-15	PM5 Version 334.000	pm5v2bk_eurochinesebin_pub_secure_R334B000.7z
 public	rower	2024-01-15	PM5 Version 215.000	pm5v3_allbin_pub_secure_R215B000.7z
 public	skierg	2024-01-15	PM5 Version 915.000	pm5v3ski_allbin_pub_secure_R915B000.7z
 public	bike	2024-01-15	PM5 Version 367.000	pm5v3bk_allbin_pub_secure_R367B000.7z
@@ -16,7 +15,6 @@ public	rower	2024-01-15	PM5 Version 260.000	pm5v5_eurochinesebin_pub_secure_R260
 public	skierg	2024-01-15	PM5 Version 960.000	pm5v5ski_eurochinesebin_pub_secure_R960B000.7z
 public	bike	2024-01-15	PM5 Version 410.000	pm5v5bk_eurochinesebin_pub_secure_R410B000.7z
 public	skierg	2024-03-01	PM5v6 Version 504.000	pm5v6ski_allbin_pub_secure_R504B000.7z
-public	bike	2024-03-01	PM5v6 Bike Erg	pm5v6bk_allbin_pub_secure_R557B000.7z
 developer	bike	2024-05-29	PM5 Version 367.000	pm5v3bk_allbin_dev_secure_R367B000.7z
 internal	strengtherg	2024-11-05	ErgLink Version 102.001	elv1str_allbin_beta_secure_R102B001.7z
 beta	rower	2024-10-01	PM5 Version 176.034	pm5v2_eurochinesebin_beta_secure_R176B034.7z
@@ -32,3 +30,5 @@ beta	strengtherg	2024-12-03	ErgLink Version 102.002	elv1str_allbin_beta_secure_R
 beta	rower	2024-11-27	PM5 Version 457.037	pm5v6_allbin_beta_secure_R457B037.7z
 beta	bike	2024-11-27	PM5 Version 557.037	pm5v6bk_allbin_beta_secure_R557B037.7z
 beta	skierg	2024-11-27	PM5 Version 504.037	pm5v6ski_allbin_beta_secure_R504B037.7z
+public	rower	2024-12-03	PM5 Version 458.000	pm5v6_allbin_pub_secure_R458B000.7z
+public	bike	2024-12-03	PM5 Version 558.000	pm5v6bk_allbin_pub_secure_R558B000.7z
