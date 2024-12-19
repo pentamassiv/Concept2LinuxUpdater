@@ -10,7 +10,7 @@ public	bike	2024-01-15	PM5 Version 334.000	pm5v2bk_eurochinesebin_pub_secure_R33
 developer	bike	2024-05-29	PM5 Version 367.000	pm5v3bk_allbin_dev_secure_R367B000.7z
 internal	strengtherg	2024-11-05	ErgLink Version 102.001	elv1str_allbin_beta_secure_R102B001.7z
 beta	rower	2024-11-04	PM5 Version 215.035	pm5v3_allbin_beta_secure_R215B035.7z
-beta	strengtherg	2024-12-03	ErgLink Version 102.002	elv1str_allbin_beta_secure_R102B002.7z
+beta	strengtherg	2024-12-18	ErgLink Version 102.004	elv1str_allbin_beta_secure_R102B004.7z
 public	rower	2024-12-11	PM5 Version 459.000	pm5v6_allbin_pub_secure_R459B000.7z
 public	skierg	2024-12-11	PM5 Version 506.000	pm5v6ski_allbin_pub_secure_R506B000.7z
 public	bike	2024-12-11	PM5 Version 559.000	pm5v6bk_allbin_pub_secure_R559B000.7z
@@ -22,3 +22,4 @@ public	skierg	2024-12-11	PM5 Version 917.000	pm5v3ski_allbin_pub_secure_R917B000
 public	skierg	2024-12-11	PM5 Version 962.000	pm5v5ski_eurochinesebin_pub_secure_R962B000.7z
 public	rower	2024-12-11	PM5 Version 262.000	pm5v5_eurochinesebin_pub_secure_R262B000.7z
 public	bike	2024-12-11	PM5 Version 412.000	pm5v5bk_eurochinesebin_pub_secure_R412B000.7z
+beta	strengtherg	2024-12-18	Strength Erg Remote Display Version 52.004	pm5v6str_allbin_beta_secure_R052B004.7z
