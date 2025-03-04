@@ -28,7 +28,7 @@ beta	rower	2025-01-15	PM5 Version 262.001	pm5v5_eurochinesebin_beta_secure_R262B
 public	rower	2025-01-21	PM5 Version 459.003	pm5v6_allbin_beta_secure_R459B003.7z
 beta	skierg	2025-01-21	PM5 Version 506.003	pm5v6ski_allbin_beta_secure_R506B003.7z
 public	bike	2025-01-21	PM5 Version 559.003	pm5v6bk_allbin_beta_secure_R559B003.7z
-internal	strengtherg	2025-02-07	ErgLink Version 103.001	elv1str_allbin_beta_secure_R103B001.7z
+beta	strengtherg	2025-02-07	ErgLink Version 103.001	elv1str_allbin_beta_secure_R103B001.7z
 internal	rower	2025-02-10	PM5 Version 39.006	pm5_eurochinesebin_beta_secure_R039B006.7z
 internal	skierg	2025-02-10	PM5 Version 739.006	pm5ski_eurochinesebin_beta_secure_R739B006.7z
 internal	rower	2025-02-10	PM5 Version 178.006	pm5v2_eurochinesebin_beta_secure_R178B006.7z
