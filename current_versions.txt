@@ -25,8 +25,6 @@ public	bike	2025-03-11	PM5 Version 369.009	pm5v3bk_allbin_beta_secure_R369B009.7
 public	bike	2025-03-11	PM5 Version 336.009	pm5v2bk_eurochinesebin_beta_secure_R336B009.7z
 public	bike	2025-03-11	PM5 Version 412.009	pm5v5bk_eurochinesebin_beta_secure_R412B009.7z
 internal	rower	2025-03-13	PM5 Version 39.010	pm5_eurochinesebin_beta_secure_R039B010.7z
-public	strengtherg	2025-04-15	Strength Erg ErgLink Version 104.010	elv1str_allbin_beta_secure_R104B010.7z
-public	strengtherg	2025-04-15	Strength Erg Remote Display Version 54.010	pm5v6str_allbin_beta_secure_R054B010.7z
 internal	rower	2025-04-15	PM5 Version 178.012	pm5v2_eurochinesebin_beta_secure_R178B012.7z
 internal	rower	2025-04-15	PM5 Version 217.012	pm5v3_allbin_beta_secure_R217B012.7z
 internal	rower	2025-04-15	PM5 Version 262.012	pm5v5_eurochinesebin_beta_secure_R262B012.7z
@@ -39,5 +37,5 @@ internal	bike	2025-04-15	PM5 Version 336.010	pm5v2bk_eurochinesebin_beta_secure_
 internal	bike	2025-04-15	PM5 Version 369.010	pm5v3bk_allbin_beta_secure_R369B010.7z
 internal	bike	2025-04-15	PM5 Version 412.010	pm5v5bk_eurochinesebin_beta_secure_R412B010.7z
 internal	bike	2025-04-15	PM5 Version 559.010	pm5v6bk_allbin_beta_secure_R559B010.7z
-internal	strengtherg	2025-05-15	Strength Erg ErgLink Version 104.017	elv1str_allbin_beta_secure_R104B017.7z
-internal	strengtherg	2025-05-15	Strength Erg Remote Display Version 54.017	pm5v6str_allbin_beta_secure_R054B017.7z
+public	strengtherg	2025-05-15	Strength Erg ErgLink Version 104.017	elv1str_allbin_beta_secure_R104B017.7z
+public	strengtherg	2025-05-15	Strength Erg Remote Display Version 54.017	pm5v6str_allbin_beta_secure_R054B017.7z
