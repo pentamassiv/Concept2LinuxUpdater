@@ -19,6 +19,6 @@ jobs:
       run: |
         curl -s "https://tech.concept2.com/api/firmware/latest" -H "Authorization: Basic ""$CONCEPT2_API_TOKEN" | jq -r '.data[] | [.status, .machine, .release_date, .short_description, .files[0].name] | @tsv' > current_versions.txt
     - name: Create Pull Request
-      uses: stefanzweifel/git-auto-commit-action@v5
+      uses: stefanzweifel/git-auto-commit-action@v6
       with:
         commit_message: Github Actions found newer firmware
