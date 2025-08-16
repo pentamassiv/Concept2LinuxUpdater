@@ -23,5 +23,5 @@ beta	rower	2025-01-13	PM5 Version 39.001	pm5_eurochinesebin_beta_secure_R039B001
 beta	skierg	2025-01-13	PM5 Version 739.001	pm5ski_eurochinesebin_beta_secure_R739B001.7z
 public	strengtherg	2025-06-06	Strength Erg ErgLink Version 104.020	elv1str_allbin_beta_secure_R104B020.7z
 public	strengtherg	2025-06-06	Strength Erg Remote Display Version 54.020	pm5v6str_allbin_beta_secure_R054B020.7z
-internal	strengtherg	2025-07-11	Strength Erg ErgLink Version 104.022	elv1str_allbin_beta_secure_R104B022.7z
 internal	strengtherg	2025-07-11	Strength Erg Remote Display Version 54.022	pm5v6str_allbin_beta_secure_R054B022.7z
+internal	strengtherg			elv1str_allbin_secure_R105B001.7z
