@@ -20,8 +20,7 @@ public	rower	2024-12-11	PM5 Version 217.000	pm5v3_allbin_pub_secure_R217B000.7z
 public	skierg	2024-12-11	PM5 Version 917.000	pm5v3ski_allbin_pub_secure_R917B000.7z
 public	strengtherg	2025-06-06	Strength Erg ErgLink Version 104.020	elv1str_allbin_beta_secure_R104B020.7z
 public	strengtherg	2025-06-06	Strength Erg Remote Display Version 54.020	pm5v6str_allbin_beta_secure_R054B020.7z
-internal	strengtherg	2025-07-11	Strength Erg Remote Display Version 54.022	pm5v6str_allbin_beta_secure_R054B022.7z
 developer	rower	2025-08-19	PM5 Version 459.035	pm5v6_allbin_secure_R459B035.7z
 developer	bike	2025-08-19	PM5 Version 559.035	pm5v6bk_allbin_secure_R559B035.7z
 developer	skierg	2025-08-19	PM5 Version 506.035	pm5v6ski_allbin_secure_R506B035.7z
-internal	strengtherg	2025-08-21		elv1str_allbin_secure_R105B002.7z
+internal	strengtherg	2025-08-25		elv1str_allbin_secure_R105B003.7z
