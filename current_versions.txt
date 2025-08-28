@@ -23,4 +23,4 @@ public	strengtherg	2025-06-06	Strength Erg Remote Display Version 54.020	pm5v6st
 developer	rower	2025-08-19	PM5 Version 459.035	pm5v6_allbin_secure_R459B035.7z
 developer	bike	2025-08-19	PM5 Version 559.035	pm5v6bk_allbin_secure_R559B035.7z
 developer	skierg	2025-08-19	PM5 Version 506.035	pm5v6ski_allbin_secure_R506B035.7z
-internal	strengtherg	2025-08-25		elv1str_allbin_secure_R105B003.7z
+internal	strengtherg	2025-08-27		elv1str_allbin_secure_R105B004.7z
